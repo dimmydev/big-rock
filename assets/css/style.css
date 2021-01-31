@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Brandon_med;
+}
+
+body{
+    background-color: #fbf7ed;
+}
+
+@font-face {
+    font-family: Sucrose-BoldOne;
+    src: url(../fonts/Sucrose-BoldOne.otf);
+}
+
+@font-face {
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: Brandon_bld;
+    src: url(../fonts/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family: ThirstyRoughBolOne;
+    src: url(../fonts/ThirstyRoughBolOne.ttf);
+}
+
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.otf);
+}
+
+.registracija{
+    background: url(../images/registerBackground.jpg) no-repeat left;
+    background-color: #c63022;
+    background-size: 845px;
+    padding: 46px 40px;
+    text-align: left;
+    height:1050px;
+}
+.login{
+    background: url(../images/registerBackground.jpg) no-repeat left;
+    background-color: #c63022;
+    background-size: 515px;
+    padding: 46px 40px;
+    text-align: left;
+    height:700px;
+}
+
+.registracijaTekst{
+    margin:0px auto;
+    padding-top: 70px;
+    width:650px;
+    height:265px;
+}
+
+.registracijaTekst h2{
+    color:white;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: Sucrose-BoldOne;
+    text-align: center;
+}
+
+.registracijaTekst p{
+    font-family: Brandon_reg;
+    letter-spacing: -.5px;
+    color: white;
+    margin-bottom: 50px;
+    opacity: .8;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.registracijaForma{
+    margin:0px auto;
+    width:750px;
+    min-height:365px;
+}
+
+.form-control{
+    width:720px;
+    height:65px;
+    margin:0 auto;
+    font-size: 28px;
+    font-family: Brandon_reg;
+}
+
+.btn-outline-primary{
+    width:720px;
+    height:65px;
+    margin:0 auto;
+    margin-left:15px;
+    font-size: 20px;
+    font-family: Brandon_med;
+    text-transform: uppercase;
+    background: #9a0c00;
+    border:0px solid;
+    color:white;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color:#9a0c00;
+}
+
+.form-control::-webkit-input-placeholder { color: #db8d88; } 
+.form-control:-moz-placeholder { color: #db8d88; }  
+.form-control::-moz-placeholder { color: #db8d88; } 
+
+.already{
+    text-align: center;
+    margin-top:20px;
+    font-size:20px;
+    color:black;
+}
+
+.registerLoginLink{
+    color:white;
+}
+.registerLoginLink:hover{
+    color:white;
+}
+
+.modal-body p{
+    font-size:20px;
+}
+
+.navbar a img{
+    margin-right:5px;
+}
+
+.navbar-light{
+    background-color: black!important;
+}
+
+.navbar-nav{
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-family: Brandon_bld;
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.pozadina{
+    background-color: #8b2219;
+}
+
+.nav-item{
+    margin:0px 15px;
+    text-align: center;
+}
+
+.container-fluid{
+    min-height:700px;
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+#futerMeni{
+    height:100px;
+}
+
+.social{
+    margin:0 10px;
+}
+
+.copyrightDiv{
+    padding-top: 50px;
+    background-color: black;
+    height:150px;
+}
+
+.est{
+    color: #fff;
+    font-family: Brandon_reg;
+    font-size: 18px;
+    letter-spacing: .6px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+}
+
+.copyright{
+    color: #ccc;
+    font-family: Brandon_reg;
+    font-size: 14px;
+    letter-spacing: .6px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imgCrtez{
+    left:50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.pocetnaPozadina{
+    background-color: #f5f0e5;
+}
+
+.naslov{
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 50px auto;
+    text-align:center;
+    font-family: Sucrose-BoldOne;
+}
+
+.opis{
+    font-size: 18px;
+    line-height: 32px;
+    margin: 50px auto;
+    text-align:center;
+    font-family: Brandon_reg;
+    width:1015px;
+}
+
+.slikaMalaDiv{
+    padding: 0px;
+    min-height: 550px;
+}
+
+.row{
+    margin: 0px;
+    padding-top: 50px;
+}
+
+.nazivPiva{
+    font-family: Sucrose-BoldOne;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.abv{
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+    display: table;
+    font-size: 14px;
+    font-family: Brandon_reg;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #555;
+}
+
+.opisPiva{
+    max-width: 340px;
+    word-wrap: break-word;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Brandon_reg;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #555;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cistac{
+    clear: both;
+}
+
+.filter{
+    margin-top: 76px;
+}
+
+.panel{
+    margin-top:50px;
+    border-top: 1px solid #333;
+}
+
+.filterNaziv{
+    padding: 14px 6px 10px 22px;
+    font-family: Sucrose-BoldOne;
+    font-size:20px;
+}
+
+.containerr {
+    margin-left:30px;
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 26px;
+    font-family: Brandon_reg;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+.containerr input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    margin-top:6px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+  
+.containerr:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.containerr input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.containerr .checkmark:after {
+    top: 2px;
+    left: 2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+}
+
+.trazi{
+    margin-top:30px;
+    width:100%;
+}
+
+.prikazPiva{
+    min-height: 600px;
+    margin-top: 30px;
+}
+
+.kategorija{
+    font-size: 28px;
+    line-height: 28px;
+    font-family: ThirstyRoughBolOne;
+    border-bottom: 2px solid black;
+    color: #11171e;
+    display: table;
+    margin: 0 auto;
+    padding-top: 6px;
+    margin-bottom: 30px;
+}
+
+.logo{
+  margin-right: 5px;
+}
+
+.admin{
+    min-height:700px;
+    margin-top:150px;
+    text-align: center;
+}
+
+.adminForma{
+    width:500px;
+    margin:50px auto;
+}
+
+.tabelaHeader{
+    background-color: #8b2219;
+    color:white;
+}
+
+.btn{
+    background-color: #8b2219;
+    border:0px;
+    color:white;
+}
+
+#registrujSe{
+    margin-bottom: 0px;
+}
+
+#ulogujSe{
+    margin-bottom: 0px;
+}
+
+.ulogaDdl{
+    margin-bottom: 30px;
+}
+
+.ispis{
+    border-top:1px solid #8b2219;
+    padding-top:30px;
+}
+
+.slikaZasebno{
+    height: 700px;
+}
+
+.opisZasebno{
+    height: 700px;
+}
+
+.slikaOriginal{
+    width:600px;
+    margin:0 auto;
+}
+
+.nazivPivaZasebno{
+    font-family: Sucrose-BoldOne;
+    font-size: 60px;
+    margin-bottom: 6%;
+}
+
+.opisPivaZasebno{
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+    font-family: Brandon_reg;
+    margin-bottom: 34px;
+}
+
+.naslovZasebno{
+    color:#df8800;
+    text-decoration: underline;
+    font-size: 16px;
+    letter-spacing: .6px;
+    line-height: 16px;
+    margin-bottom: 1%;
+    font-family: Brandon_bld;
+}
+
+.tekst{
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-bottom: 4%;
+    font-family: Brandon_reg;
+}
+
+.page-link{
+    background-color: black;
+    color: #fbf7ed;
+}
+
+.page-link:hover{
+    background-color: #fbf7ed;
+    color: black;
+}
+
+.brojeviPaginacija{
+    margin:0 auto;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.obavestenjeLoginRegister{
+    padding-top: 100px;
+}
+
+.userMenu{
+    color:#fbf7ed;
+    font-size:20px;
+    padding-top: 15px;
+}
+
+.table td, .table th{
+    vertical-align: middle;
+}
+
+.text {
+    width: 720px;
+    height: 200px;
+    color: #495057;
+    font-size: 25px;
+}
+
+#pasusOMeni{
+    width: 900px;
+    margin: 130px auto;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.divSlika img {
+    margin: auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.progress-bar{
+    background-color: #8b2219;
+}
+
+.fa-star{
+    cursor: pointer;
+}
+
+.regularniFalse {
+    display: none;
+    color: black;
+    text-align: center;
+}
+
+.error{
+    justify-content:center;
+    padding-top:100px;
+}
+
+.greskeIspis{
+    margin-top:50px;
+}

@@ -1,0 +1,2 @@
+ErrorDocument 403 http://bigrock.epizy.com/index.php?page=403_404
+ErrorDocument 404 http://bigrock.epizy.com/index.php?page=403_404

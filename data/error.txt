@@ -1,0 +1,23 @@
+login.php	09.07.2019 16:58:03	::1	404	Korisnik nije pronadjen.
+login.php	09.07.2019 17:02:04	::1	404	Korisnik nije pronadjen.
+login.php	09.07.2019 17:02:13	::1	409	Pogresna lozinka
+login.php	09.07.2019 17:02:15	::1	409	Pogresna lozinka
+register.php	09.07.2019 17:46:04	::1	500	SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bigrock.korissnik' doesn't exist
+login.php	09.07.2019 19:24:40	::1	404	Korisnik nije pronadjen.
+login.php	09.07.2019 19:24:48	::1	404	Korisnik nije pronadjen.
+login.php	09.07.2019 21:51:51	::1	409	Pogresna lozinka
+login.php	10.07.2019 20:56:23	::1	404	Korisnik nije pronadjen.
+login.php	10.07.2019 20:56:32	::1	500	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_korisnik='14'' at line 1
+login.php	10.07.2019 20:57:34	::1	500	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_korisnik='14'' at line 1
+login.php	10.07.2019 21:00:00	::1	500	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_korisnik='14'' at line 1
+login.php	10.07.2019 21:03:06	::1	500	SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id_korisnik=14' at line 1
+login.php	10.07.2019 21:50:44	::1	409	Pogresna lozinka
+login.php	10.07.2019 21:54:11	::1	409	Pogresna lozinka
+login.php	11.07.2019 13:14:20	::1	409	Pogresna lozinka
+login.php	29.01.2020 00:13:12	::1	404	Korisnik nije pronadjen.
+deleteKorisnika.php	30.01.2021 21:51:20	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bigrock`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_1` FOREIGN KEY (`id_korisnik`) REFERENCES `korisnik` (`id_korisnik`))
+insertUpdateOcene.php	31.01.2021 19:25:25	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bigrock`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_1` FOREIGN KEY (`id_korisnik`) REFERENCES `korisnik` (`id_korisnik`))
+deleteKorisnika.php	31.01.2021 19:25:50	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bigrock`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_1` FOREIGN KEY (`id_korisnik`) REFERENCES `korisnik` (`id_korisnik`))
+deleteKorisnika.php	31.01.2021 19:26:01	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bigrock`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_1` FOREIGN KEY (`id_korisnik`) REFERENCES `korisnik` (`id_korisnik`))
+deleteKorisnika.php	31.01.2021 19:26:05	::1	500	SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bigrock`.`korisnik_proizvod`, CONSTRAINT `korisnik_proizvod_ibfk_1` FOREIGN KEY (`id_korisnik`) REFERENCES `korisnik` (`id_korisnik`))
+login.php	31.01.2021 19:38:50	::1	404	Korisnik nije pronadjen.
